@@ -8,6 +8,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns='http://www.w.org/2000/svg' viewBox='0 0 100 100'><rect x='20' y='25' width='60' height='55' rx='8' fill='%23000000'/><circle cx='40' cy='50' r='8' fill='white'/><circle cx='60' cy='50' r='8' fill='white'/></svg>"
+        />
+        <link
             href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Inter:wght@400;700&display=swap"
             rel="stylesheet"
         />
@@ -34,13 +38,17 @@
                         robotics. Proven ability in developing complex software
                         for autonomous vehicles and drones, with hands-on
                         experience from simulation to hardware validation.
+                        Seeking a Robotics Software Engineer Internship to
+                        contribute to innovative projects.
                     </p>
 
                     <div class="skills-list">
                         <p>
                             <strong>Core Skills:</strong> C++ (14/17/20),
-                            Python, Rust, C, ROS/ROS2, Real-time Systems,
-                            Embedded Linux, Motion Planning, Controls, Git,
+                            Python, Rust, C, ROS/ROS2, MATLAB, Behavior Trees,
+                            Real-time Systems, Cross-compilation,
+                            Multithreading, Embedded Linux, FreeRTOS, HAL,
+                            UART/I2C/SPI, Motion Planning, Controls, Git,
                             Docker, CMake.
                         </p>
                     </div>
@@ -70,42 +78,108 @@
                         <div class="project-card">
                             <h3>Autonomous Vehicle Control</h3>
                             <p>
-                                Designed and implemented navigation, ACC, and
-                                obstacle avoidance algorithms in MATLAB & ROS.
-                                Led development of the autonomous stack,
-                                securing 1st place awards.
+                                Developed navigation, adaptive cruise control,
+                                and obstacle avoidance algorithms in MATLAB.
+                                Deployed on Renault Zoe with Python and ROS,
+                                leading the autonomous stack that secured 1st
+                                place awards.
                             </p>
-                            <a href="#">View Details</a>
+                            <a
+                                href="https://github.com/theguega/decision-control-navigation"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >GitHub</a
+                            >
                         </div>
                         <div class="project-card">
                             <h3>Embedded Drone Scripting Engine</h3>
                             <p>
-                                Architected a real-time embedded Lua engine in
-                                C++, reducing mission prototyping time by 4x.
+                                Built a real-time embedded Lua engine in C++,
+                                reducing mission prototyping time by 4×.
                                 Integrated a local LLM in Rust for
-                                natural-language commands.
+                                natural-language drone commands.
                             </p>
-                            <a href="#">View Details</a>
+                            <a
+                                href="https://www.thalesgroup.com/en/worldwide/defence-and-security/press_release/thales-demonstrates-its-capacity-deploy-drone-swarms"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >View Details</a
+                            >
+                        </div>
+                        <div class="project-card">
+                            <h3>Peillute</h3>
+                            <p>
+                                Designed a distributed, cross-platform payment
+                                application in Rust. Implemented peer-to-peer
+                                communication inspired by “Pay'UTC” without
+                                relying on central servers.
+                            </p>
+                            <a
+                                href="https://github.com/theguega/peillute"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >GitHub</a
+                            >
                         </div>
                         <div class="project-card">
                             <h3>Real-Time Kernel (RTOS)</h3>
                             <p>
-                                Designed a preemptive RTOS on an STM32 board
-                                from scratch in both C and Rust, implementing
-                                mutexes, semaphores, and priority inversion
-                                handling.
+                                Implemented a preemptive RTOS from scratch on
+                                STM32 in C and Rust. Added mutexes, semaphores,
+                                and priority inversion handling for robust
+                                concurrency.
                             </p>
-                            <a href="#">View Details</a>
+                            <a
+                                href="https://github.com/theguega/bare-metal-dev"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >GitHub</a
+                            >
                         </div>
                         <div class="project-card">
                             <h3>Teleoperated Robotic Arm</h3>
                             <p>
-                                Built a dual-arm robotic system achieving 80%
-                                task success at 50 Hz. Explored reinforcement
-                                and imitation learning with PyTorch and
-                                HuggingFace for teleoperation.
+                                Developed a dual-arm robotic system achieving
+                                80% task success at 50 Hz using pi-0 VLA.
+                                Applied reinforcement and imitation learning
+                                with PyTorch and HuggingFace for teleoperation.
                             </p>
-                            <a href="#">View Details</a>
+                            <a
+                                href="https://huggingface.co/lerobot"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >View Details</a
+                            >
+                        </div>
+                        <div class="project-card">
+                            <h3>TurtleBot Maze Mapping</h3>
+                            <p>
+                                Created a maze exploration and mapping system in
+                                ROS. Enabled TurtleBot to autonomously navigate
+                                unknown environments using LiDAR, odometry,
+                                ultrasound, and camera sensors.
+                            </p>
+                            <a
+                                href="https://github.com/theguega/ros-maze-mapping"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >GitHub</a
+                            >
+                        </div>
+                        <div class="project-card">
+                            <h3>VTOL and FPV Drone Coordination</h3>
+                            <p>
+                                Designed a multi-drone coordination system
+                                enabling autonomous following behavior.
+                                Supported MAVSDK and Parrot Olympe protocols for
+                                cross-platform deployment.
+                            </p>
+                            <a
+                                href="https://github.com/theguega/drone-coordination"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >GitHub</a
+                            >
                         </div>
                     </div>
                 </div>
@@ -114,28 +188,22 @@
             <section id="resume">
                 <div class="container">
                     <h2>Resume</h2>
+
+                    <h3 class="resume-subheading">Professional Experience</h3>
                     <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-year">Present</div>
-                            <div class="timeline-content">
-                                <h3>
-                                    Software Engineer Intern, Robotics -
-                                    Neuralink
-                                </h3>
-                                <p>
-                                    Developing and integrating complex software
-                                    for advanced autonomous and robotic systems.
-                                </p>
-                            </div>
-                        </div>
                         <div class="timeline-item">
                             <div class="timeline-year">2024 - 2025</div>
                             <div class="timeline-content">
                                 <h3>Embedded Drone Software Intern - Thales</h3>
                                 <p>
-                                    Developed a real-time C++ scripting engine
-                                    and integrated a Rust-based LLM for on-drone
-                                    mission customization and control.
+                                    Architected a real-time embedded Lua
+                                    scripting engine in modern C++ (TDD) for
+                                    on-drone customization, reducing mission
+                                    prototyping time by 4×. <br />Integrated a
+                                    local LLM using Rust and Docker for
+                                    natural-language commands and contributed to
+                                    hardware/software debugging for a
+                                    high-profile live demo.
                                 </p>
                             </div>
                         </div>
@@ -147,14 +215,55 @@
                                     UTAC Challenge
                                 </h3>
                                 <p>
-                                    Led the design and implementation of the
-                                    control and navigation stack for an
-                                    autonomous Renault Zoe, validated in
-                                    simulation and on-hardware.
+                                    Designed and implemented navigation, ACC,
+                                    and obstacle avoidance algorithms in
+                                    MATLAB.<br />
+                                    Led integration on a Renault Zoe using ROS,
+                                    securing 1st School Award (2024) and Open
+                                    Category (2025).
                                 </p>
                             </div>
                         </div>
                     </div>
+
+                    <h3 class="resume-subheading">Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2025</div>
+                            <div class="timeline-content">
+                                <h3>
+                                    Exchange Student, Computer Engineering -
+                                    University of Waterloo
+                                </h3>
+                                <p>
+                                    Relevant Courses: Deep Learning, Image
+                                    Processing, Computer Networks.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2021 - 2026</div>
+                            <div class="timeline-content">
+                                <h3>
+                                    Master’s Degree in Computer Science -
+                                    Université de Technologie de Compiègne (UTC)
+                                </h3>
+                                <p>
+                                    Specialization in Embedded Computing &
+                                    Autonomous Systems. <br />Coursework in
+                                    Robotics Control, Autonomy, and Kinematics.
+                                    <br />GPA: 4.0/4.0.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a
+                        href="Theo_Guegan_Resume.pdf"
+                        class="download-btn"
+                        target="_blank"
+                        >Download Full Resume</a
+                    >
                 </div>
             </section>
         </main>
