@@ -4,13 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Theo Guegan | Robotics Software Engineer</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="src/style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            rel="icon"
-            href="data:image/svg+xml,<svg xmlns='http://www.w.org/2000/svg' viewBox='0 0 100 100'><rect x='20' y='25' width='60' height='55' rx='8' fill='%23000000'/><circle cx='40' cy='50' r='8' fill='white'/><circle cx='60' cy='50' r='8' fill='white'/></svg>"
-        />
+        <link rel="icon" href="assets/favicon.ico" />
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Inter:wght@400;700&display=swap"
             rel="stylesheet"
@@ -107,6 +104,37 @@
                             >
                         </div>
                         <div class="project-card">
+                            <h3>Brain-to-Text’25 (Kaggle Competition)</h3>
+                            <p>
+                                Designed and implemented a RNN with PyTorch to
+                                decode 256-channel neural spike trains into
+                                text.
+                            </p>
+                            <p>
+                                Built the training & evaluation pipeline with
+                                custom dataloaders, batching, and sequence-aware
+                                loss.
+                            </p>
+                        </div>
+                        <div class="project-card">
+                            <h3>
+                                Neural Surrogate for Model Predictive Control
+                            </h3>
+                            <p>
+                                Developed a neural surrogate for Model
+                                Predictive Control comparing different models
+                                (SVMs, MLPs, RNNs) to approximate optimal
+                                control policies.
+                            </p>
+                            <p>
+                                Benchmarked against reinforcement learning
+                                baselines, evaluating RMSE, tracking error,
+                                constraint violations, and learning curves to
+                                assess accuracy and real-time feasibility in
+                                robotics control.
+                            </p>
+                        </div>
+                        <div class="project-card">
                             <h3>Peillute</h3>
                             <p>
                                 Designed a distributed, cross-platform payment
@@ -176,6 +204,20 @@
                             </p>
                             <a
                                 href="https://github.com/theguega/drone-coordination"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >GitHub</a
+                            >
+                        </div>
+                        <div class="project-card">
+                            <h3>SmallGrad</h3>
+                            <p>
+                                An open source tiny ndarray-values autograd
+                                engine and a neural net library on top of it
+                                with PyTorch-like API
+                            </p>
+                            <a
+                                href="https://github.com/theguega/smallgrad"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 >GitHub</a
@@ -252,17 +294,23 @@
                                     Specialization in Embedded Computing &
                                     Autonomous Systems. <br />Coursework in
                                     Robotics Control, Autonomy, and Kinematics.
-                                    <br />GPA: 4.0/4.0.
+                                    <br />GPA: 5.0/5.0.
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     <a
-                        href="Theo_Guegan_Resume.pdf"
+                        href="resume/Theo_Guegan_Resume.pdf"
                         class="download-btn"
                         target="_blank"
                         >Download Full Resume</a
+                    >
+                    <a
+                        href="resume/Theo_Guegan_CV.pdf"
+                        class="download-btn"
+                        target="_blank"
+                        >Resume (French)</a
                     >
                 </div>
             </section>
