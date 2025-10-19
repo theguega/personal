@@ -7,7 +7,7 @@
   address: [],
   contacts: (
     (text: [#fa-icon("mobile") 07 82 95 45 55], link: "tel:+33782954555"),
-    (text: [#fa-icon("link") portfolio], link: "https://theguega.github.io/robotics-portfolio"),
+    (text: [#fa-icon("link") portfolio], link: "https://theguega.github.io/personal/"),
     (text: [#fa-icon("github") github], link: "https://github.com/theguega"),
     (text: [#fa-icon("envelope") theo.guegan.perso\@gmail.com], link: "mailto:theo.guegan.perso@gmail.com"),
   ),
