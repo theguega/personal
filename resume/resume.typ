@@ -26,7 +26,7 @@
     - *Embedded Systems:* Embedded Linux, Multithreading, HAL, UART/I2C/SPI, CAN, HITL Debugging
     - *Robotics:* RTOS, ROS/ROS2, Behavior Trees, Computer Vision, Gazebo, MuJoCo, Gymnasium
     - *Tools:* Git, Linux, CMake, Makefile, Docker, Test Automation
-    - *AI/ML:* PyTorch, Deep Learning, RL, Imitation Learning, Supervised Learning
+    - *AI/ML:* PyTorch, Scikit-Learn, Deep Learning, RL, Imitation Learning
   ]
 ]
 
@@ -52,7 +52,7 @@
     datetime(year: 2025, month: 9, day: 1),
     datetime(year: 2025, month: 12, day: 1)
   )[
-    - Coursework: Deep Learning, Image Processing, Computer Networks
+    - Coursework: Deep Learning, Image Processing, Computer Networks, Deep Reinforcement Learning
   ]
 ]
 
