@@ -1,7 +1,7 @@
 import qrcode
 
-url_en = "https://theguega.github.io/robotics-portfolio/resume/Theo_Guegan_Resume.pdf"
-url_fr = "https://theguega.github.io/robotics-portfolio/resume/Theo_Guegan_CV.pdf"
+url_en = "https://theguega.github.io/personal/resume/Theo_Guegan_Resume.pdf"
+url_fr = "https://theguega.github.io/personal/resume/Theo_Guegan_CV.pdf"
 
 im1 = qrcode.make(url_en)
 im2 = qrcode.make(url_fr)

@@ -22,11 +22,12 @@
 
 #custom-title("Skills")[
   #skills()[
-    - *Programming:* C/C++, Python, Rust, MATLAB, Bash, Lua, Go
+    - *Programming:* C, C++17, Python 3.13, Rust, MATLAB, Bash, Lua, Go, Dart
     - *Embedded Systems:* Embedded Linux, Multithreading, HAL, UART/I2C/SPI, CAN, HITL Debugging
     - *Robotics:* RTOS, ROS/ROS2, Behavior Trees, Computer Vision, Gazebo, MuJoCo, Gymnasium
     - *Tools:* Git, Linux, CMake, Makefile, Docker, Test Automation
     - *AI/ML:* PyTorch, Scikit-Learn, Deep Learning, RL, Imitation Learning
+    - *Models:* DinoV2, pi0.5, SAM2, GR00T N1.5, SmolVLA
   ]
 ]
 
@@ -39,8 +40,8 @@
     datetime(year: 2021, month: 9, day: 1),
     datetime(year: 2026, month: 6, day: 1)
   )[
-    - Specialization: Embedded Computing, Autonomous Systems
-    - GPA: 4.0/4.0
+    - Specialty – Embedded Computing and Equipment and Autonomous Systems
+    - GPA: 5.0/5.0
     - Coursework: Robotics Control, Embedded Systems, Autonomy, Kinematics
   ]
 
@@ -85,17 +86,17 @@
 
 #custom-title("Projects")[
   #project-heading("Neural Surrogate for Model Predictive Control")[
-    - Developed a neural surrogate for MPC comparing SVMs, MLPs, and RNNs to approximate optimal control policies.
-    - Benchmarked against RL baselines using RMSE, tracking error, constraint violations, and real-time feasibility.
+    - Developed a neural surrogate for MPC comparing SVMs, MLPs, and RNNs for behavioral cloning.
+    - Benchmarked using offline and online metrics inside a MuJoCo simulation achieving 90% success.
   ]
 
   #project-heading("Real-Time Kernel (RTOS)")[
-    - Built a preemptive RTOS on STM32H747I-DISCO with mutexes, semaphores, and priority inversion handling.
+    - Built a preemptive RTOS on STM32H747I-DISCO with mutexes, semaphores, and priority inheritance.
     - Implemented both in Rust (stm32-hal) and C for bare-metal control, showcasing deep embedded systems expertise.
   ]
 
   #project-heading("LeRobot: Teleoperated Robotic Arm")[
-    - Built dual-arm robotic system achieving 80% success at 50 Hz using π0 general VLA.
+    - Built dual-arm robotic system achieving 80% success at 50 Hz using pi0.5 VLA.
     - Explored reinforcement and imitation learning (PyTorch, HuggingFace) for teleoperation.
   ]
 ]
